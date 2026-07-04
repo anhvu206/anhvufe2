@@ -8,6 +8,7 @@ import {
 
 import Lab1 from "./labs/Lab1";
 import Lab2 from "./labs/Lab2";
+import Lab3 from "./labs/lab3";
 
 function Home() {
   return (
@@ -37,15 +38,17 @@ function App() {
               <HomeOutlined />
               Trang chủ
             </Link>
-
             <Link to="/lab1" className={menuClass("/lab1")}>
               <UserOutlined />
               Lab 1
             </Link>
-
             <Link to="/lab2" className={menuClass("/lab2")}>
               <AppstoreOutlined />
               Lab 2
+            </Link>
+            <Link to="/lab3" className={menuClass("/lab3")}>
+              <AppstoreOutlined />
+              Lab 3
             </Link>
           </nav>
         </aside>
@@ -62,6 +65,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/lab1" element={<Lab1 />} />
             <Route path="/lab2" element={<Lab2 />} />
+            <Route path="/lab3" element={<Lab3 />} />
           </Routes>
         </main>
       </div>
