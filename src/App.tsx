@@ -9,6 +9,7 @@ import {
 import Lab1 from "./labs/Lab1";
 import Lab2 from "./labs/Lab2";
 import Lab3 from "./labs/lab3";
+import Lab4 from "./labs/lab4";
 
 function Home() {
   return (
@@ -50,6 +51,10 @@ function App() {
               <AppstoreOutlined />
               Lab 3
             </Link>
+            <Link to="/lab4" className={menuClass("/lab4")}>
+              <AppstoreOutlined />
+              Lab 4
+            </Link>
           </nav>
         </aside>
 
@@ -66,6 +71,7 @@ function App() {
             <Route path="/lab1" element={<Lab1 />} />
             <Route path="/lab2" element={<Lab2 />} />
             <Route path="/lab3" element={<Lab3 />} />
+            <Route path="/lab4" element={<Lab4 />} />
           </Routes>
         </main>
       </div>

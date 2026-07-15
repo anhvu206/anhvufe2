@@ -1,3 +1,53 @@
 {
-  "stories": []
+  "stories": [
+    {
+      "id": 1,
+      "title": "One Piece",
+      "author": "Eiichiro Oda",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c9/DB_Tank%C5%8Dbon.png",
+      "createdAt": "2026-07-01T08:30:00"
+    },
+    {
+      "id": 2,
+      "title": "Naruto",
+      "author": "Masashi Kishimoto",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg",
+      "createdAt": "2026-07-02T09:00:00"
+    },
+    {
+      "id": 3,
+      "title": "Dragon Ball",
+      "author": "Akira Toriyama",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c9/DB_Tank%C5%8Dbon.png",
+      "createdAt": "2026-07-03T10:15:00"
+    },
+    {
+      "id": 5,
+      "title": "Demon Slayer",
+      "author": "Koyoharu Gotouge",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c9/DB_Tank%C5%8Dbon.png",
+      "createdAt": "2026-07-05T13:00:00"
+    },
+    {
+      "id": 6,
+      "title": "Jujutsu Kaisen",
+      "author": "Gege Akutami",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/4/46/Jujutsu_kaisen.jpg",
+      "createdAt": "2026-07-06T14:30:00"
+    },
+    {
+      "id": 7,
+      "title": "Bleach",
+      "author": "Tite Kubo",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/7/72/Bleachanime.png",
+      "createdAt": "2026-07-07T15:40:00"
+    },
+    {
+      "id": 8,
+      "title": "Death Note",
+      "author": "Tsugumi Ohba",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c9/DB_Tank%C5%8Dbon.png",
+      "createdAt": "2026-07-08T16:50:00"
+    }
+  ]
 }
